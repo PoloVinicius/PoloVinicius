@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+html{
+    font-family:arial sans-serif;
+    font-size: 15pt;
+}
+
+body{
+    background-color: navy;
+}
+
+div#interface {
+    width:1500px;
+    position: absolute;
+    margin: 10px auto 10px 250px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    padding: 10px;
+    background-color: white;
+    color: navy;
+}
+header {
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom: 2px solid black;
+    background-color: #b7bbfa;
+    margin: 25px;
+    padding: 10px;
+    position: relative;
+}
+nav#menu{
+    display: block;
+    height: 100px;
+    border: 1px solid navy;
+    margin: 25px;
+    padding: 1px 10px 1px 10px;
+    background-color: rgb(183, 187, 250);
+}
+nav#menu ul{
+    list-style: none;
+}
+nav#menu li{
+    display: inline-block;
+    text-align:justify;
+    border: 1px solid navy;
+    margin: 0px 15px 0px 15px;
+    background-color:navy;   
+    color: rgb(183, 187, 250);
+    padding: 10px;
+   
+}
+nav#menu li:hover {
+    background-color: #b7bbfa;
+    color:navy;
+    transition: background-color 1s;
+    box-shadow: 0px 0px 15px navy;
+    transition: box-shadow 1s;
+}
+nav#menu a{
+    color:#b7bbfa;
+}
+nav#menu a:hover{
+    color: navy;
+    font-size: 150%;
+    width:100%;
+    transition: color 2s;
+    transition: font-size 1s;
+    
+}
+
+figure{
+    text-align: center;
+}
+section#central{
+    float:left;
+    display:block;
+    width: 1200px;
+    border-right: 1px solid black;
+}
+aside#right {
+    text-align: center;
+    display: block;
+    float: right;
+    width: 265px;
+    margin-top: 10px;
+}
+#in {
+    width: 200px;
+    height: 200px;
+}
+#ins{
+    width: 150px;
+    height: 150px;
+}
+#git{
+    width: 200px;
+    height: 200px;
+}
+
+caption#exptitle{
+    background-color:#b7bbfa;
+    padding: 10px;
+
+}
+table#exp{
+    margin: 15px; 
+}
+tr{
+    background-color:#b7bbfa;    
+}
+td {
+    padding: 10px;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid black;
+    text-align:center;
+}
+div#linkcarreira{
+    padding: 5px;
+    text-align:center;
+}
+
+a #linkframe{
+    width: 100px;
+    height:100px;
+    margin: 0px 20px 20px 0px;
+    border: 2px solid navy;
+    box-shadow: 0px 0px 20px #b7bbfa;
+}
+div #linkframe:hover{
+    width:110px;
+    transition: 1s;
+    box-shadow: 0px 0px 60px rgba(0, 0, 128,0.8);
+
+}
+
+iframe#carreira{
+    width: 1000px;
+    height: 300px;
+    margin-left: 85px;
+}
